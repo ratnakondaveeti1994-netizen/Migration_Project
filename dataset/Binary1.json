@@ -1,0 +1,22 @@
+{
+	"name": "Binary1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lsdifffile_locations",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"sourcefle": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "containermorecsvinput"
+			}
+		}
+	}
+}

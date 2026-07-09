@@ -1,0 +1,11 @@
+{
+	"name": "Parquet3",
+	"properties": {
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}

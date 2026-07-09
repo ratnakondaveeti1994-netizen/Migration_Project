@@ -1,0 +1,56 @@
+{
+	"name": "Parquet4",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage5",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "txtinputcontainer"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "1",
+				"type": "UTF8"
+			},
+			{
+				"name": "2",
+				"type": "UTF8"
+			},
+			{
+				"name": "3",
+				"type": "UTF8"
+			},
+			{
+				"name": "4",
+				"type": "UTF8"
+			},
+			{
+				"name": "5",
+				"type": "UTF8"
+			},
+			{
+				"name": "6",
+				"type": "UTF8"
+			},
+			{
+				"name": "6",
+				"type": "UTF8"
+			},
+			{
+				"name": "7",
+				"type": "UTF8"
+			},
+			{
+				"name": "8",
+				"type": "UTF8"
+			}
+		]
+	}
+}
